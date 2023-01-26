@@ -1,7 +1,7 @@
-### Task10_Docker
+### Task 10_Docker
 For home task 10, we have two separate subtasks.
 
-#####Task10.1
+##### Task 10.1
 1. Install docker.
    I used AWS EC2 instance with Ubuntu 22.04 (ami-03e08697c325f02ab) on it. For installing Docker I used instructions from [official sit](https://docs.docker.com/engine/install/ubuntu/)
 2. Prepare a dockerfile based on Apache or Nginx image
@@ -29,7 +29,7 @@ COPY - layer that takes [files](https://github.com/Heckfy05/Task10/blob/main/Tas
 4. As resoult of launched conteiner we visiting host ip on port 8080
    ![img](https://github.com/Heckfy05/Task10/blob/main/Task1/img/1.jpg?raw=true)
    
-#####Task10.2
+##### Task 10.2
 1. Prepare private and public networks
    >docker network create internet
    docker network create local --internal
